@@ -1,0 +1,380 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__bt1 {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 30px 0;
+}
+
+.container__bt1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container__bt1 h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container__bt1 .form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.container__bt1 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.container__bt1 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.container__bt1 .btn {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container__bt1 .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container__bt1 #output-Salary {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Bài tập số 2 */
+
+.container__bt2 {
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 30px 0;
+}
+
+.container__bt2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container__bt2 h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container__bt2 .form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.container__bt2 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.container__bt2 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.container__bt2 .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container__bt2 .mb-3 {
+    flex: 1 1 48%;
+}
+
+.container__bt2 .btn {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container__bt2 .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container__bt2 #output-Average {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Bài tập số 3 */
+.container__bt3 {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 30px 0;
+}
+
+.container__bt3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container__bt3 h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container__bt3 .form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 8px;
+    text-align: left;
+    display: block;
+}
+
+.container__bt3 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.container__bt3 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.container__bt3 .btn {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container__bt3 .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container__bt3 #output-vnd {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* bài tập số 4 */
+
+.container__bt4 {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 30px 0;
+}
+
+.container__bt4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container__bt4 h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container__bt4 .form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 8px;
+    text-align: left;
+    display: block;
+}
+
+.container__bt4 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.container__bt4 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.container__bt4 .btn {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container__bt4 .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container__bt4 #output-calculate {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Bài tập số 5 */
+.container__bt5 {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 30px 0;
+}
+
+.container__bt5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container__bt5 h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.container__bt5 .form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 8px;
+    text-align: left;
+    display: block;
+}
+
+.container__bt5 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.container__bt5 .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.container__bt5 .btn {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container__bt5 .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.container__bt5 #output-sum {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
